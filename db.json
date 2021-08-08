@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "title": "Подвеска с жемчугами",
+      "image": "https://ae01.alicdn.com/kf/Hdcb79e3597704875a55363c4ef549df9g/Elegant-White-Pearl-Choker-Necklace-For-Women-Aesthetic-Gold-Color-Heart-Pendant-Necklaces-Jewelry-Accessories-Collier.jpg_Q90.jpg_.webp",
+      "price": "1500",
+      "type": "Подвеска",
+      "description": "Многослойная подвеска в золоте с жемчугами",
+      "id": 1
+    },
+    {
+      "title": "Многослойная цепочка",
+      "image": "https://www.refinery29.com/images/8864563.png?format=pjpg&auto=webp&resize-filter=lanczos2&quality=50&sharpen=a3%2Cr3%2Ct0&optimize=low&width=960",
+      "price": "2000",
+      "type": "Подвеска",
+      "description": "Многослойная цепочка с кулоном, покрытая золотом",
+      "id": 2
+    },
+    {
+      "title": "Подвеска - бабочка",
+      "image": "https://cdn.shopify.com/s/files/1/0157/1002/7830/products/product-image-1429059073_1024x.jpg?v=1594662791",
+      "price": "2000",
+      "type": "Подвеска",
+      "description": "Золотая подвеска с бабочками",
+      "id": 3
+    },
+    {
+      "title": "Кольцо - цепь",
+      "image": "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/30/1/asset/50fa0acff530/sub-buzz-254-1588210419-14.jpg",
+      "price": "700",
+      "type": "Кольцо",
+      "description": "Массивное кольцо - цепь в золоте",
+      "id": 4
+    },
+    {
+      "title": "Набор из двух колец",
+      "image": "https://cdn.shopify.com/s/files/1/1751/5037/products/itgirl-shop-golden-metal-ring-pearl-beads-adjustable-set-rings-one-size-28088103895075_643x.jpg?v=1617638974",
+      "price": "1100",
+      "type": "Кольцо",
+      "description": "Кольца в минималистическом стиле",
+      "id": 5
+    },
+    {
+      "title": "Набор колец",
+      "image": "http://sc04.alicdn.com/kf/Hb6cbd9b0fd054135ae0f54d48dac1376m.jpg",
+      "price": "900",
+      "type": "Кольцо",
+      "description": "Набор из двух колец в золоте",
+      "id": 6
+    },
+    {
+      "title": "Серьги - каффы",
+      "image": "https://ae01.alicdn.com/kf/H6fadad15ff984e5e90e0d9b30ae173cbJ/Gothic-Butterfly-earrings-kolczyki-For-Women-Egirl-Dangle-Tassel-Cool-Chic-Silver-Color-Aesthetic-Jewelry-Endientes.jpg_Q90.jpg_.webp",
+      "price": "1000",
+      "type": "Серьги",
+      "description": "Серьги - каффы в корейском стиле",
+      "id": 7
+    },
+    {
+      "title": "Серьги - планета",
+      "image": "https://my-test-11.slatic.net/p/a736952adb7a590539968627440e566a.jpg",
+      "price": "700",
+      "type": "Серьги",
+      "description": "Минималистичные серьги в золоте",
+      "id": 8
+    },
+    {
+      "title": "Серьги - каффы",
+      "image": "https://suushandmadejewellery.nl/wp-content/uploads/2020/03/89903208_3027921710584710_5961918745814237184_n.jpg",
+      "price": "800",
+      "type": "Серьги",
+      "description": "Серьги - каффы со слоником",
+      "id": 9
+    },
+    {
+      "title": "Многослойные подвески",
+      "image": "https://ae01.alicdn.com/kf/Hc2e56e28d0f34e7d8188b34623ae59167/DAXI-Pendant-Chain-Necklace-Gold-Necklaces-For-Women-Chains-Lock-Layered-Necklace-Jewelry-Aesthetic-Thick-perle.jpg",
+      "price": "1500 (1)",
+      "type": "Подвеска",
+      "description": "Многослойные подвески в золоте",
+      "id": 10
+    },
+    {
+      "title": "Многослойная подвеска",
+      "image": "https://cdn.shopify.com/s/files/1/0100/1462/1758/products/product-image-1042951304_800x.jpg?v=1571730097",
+      "price": "1500",
+      "type": "Подвеска",
+      "description": "Многослойная подвеска с монетами и крестом",
+      "id": 11
+    },
+    {
+      "title": "Комплект ",
+      "image": "https://cdn.asiatatler.com/asiatatler/i/hk/2020/10/12164004-72958167-2539756076070838-1877754676699463680-o_cover_1784x1784.jpg",
+      "price": "5000",
+      "type": "Комплект",
+      "description": "Комплект из подвесок, серёжек и кольца",
+      "id": 12
+    }
+  ]
+}

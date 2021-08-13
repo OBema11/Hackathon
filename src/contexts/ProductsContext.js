@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useReducer } from 'react';
+import React, { useReducer, useState } from 'react';
 import { calcSubPrice, calcTotalPrice } from '../helpers/calcPrice';
 import { API } from '../helpers/constants';
 
@@ -11,6 +11,7 @@ const INIT_STATE = {
     paginatedPages: 1,
     cart: {},
     cartLength: 0,
+    detail: {}
 }
 
 const reducer = (state = INIT_STATE, action) => {
@@ -32,16 +33,21 @@ const reducer = (state = INIT_STATE, action) => {
             return {
                 ...state, cart: action.payload
             }
+        case "GET_DETAIL_PRODUCT":
+            return {
+                ...state, detail: action.payload
+            }
         default: return state
     }
 }
 
 const ProductsContext = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, INIT_STATE)
+    const [bar, setBar]=useState    (false)
 
     const getProducts = async (history) => {
         const search = new URLSearchParams(history.location.search)
-        search.set('_limit', 6)
+        search.set('_limit', 10)
         history.push(`${history.location.pathname}?${search.toString()}`)
         let data = await axios(`${API}/products${window.location.search}`)
         dispatch({
@@ -140,6 +146,10 @@ const ProductsContext = ({ children }) => {
         })
     }
 
+    const buy = () => {
+        localStorage.clear()
+    }
+
     const changeProductCount = (count, id) => {
         let cart = JSON.parse(localStorage.getItem('cart'))
         cart.products = cart.product.map(elem => {
@@ -166,6 +176,19 @@ const ProductsContext = ({ children }) => {
         return newCart.length > 0 ? true : false
     }
 
+    const getDetail = async (id) => {
+        const { data } = await axios.get(`${API}/products/${id}`)
+        dispatch({
+            type: "GET_DETAIL_PRODUCT",
+            payload: data
+        })
+    }
+
+    const openSidebar=()=>{
+        setBar(true)
+    }
+
+
     return (
         <productContext.Provider value={{
             products: state.products,
@@ -173,6 +196,7 @@ const ProductsContext = ({ children }) => {
             paginatedPages: state.paginatedPages,
             cart: state.cart,
             cartLength: state.cartLength,
+            detail: state.detail,
             getProducts,
             addProduct,
             editProduct,
@@ -182,7 +206,12 @@ const ProductsContext = ({ children }) => {
             getCartLength,
             changeProductCount,
             checkProductInCart,
-            getCart
+            getCart,
+            getDetail,
+            openSidebar,
+            setBar,
+            bar,
+            buy
         }}>
             {children}
         </productContext.Provider>

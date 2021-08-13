@@ -1,0 +1,12 @@
+
+.react-player{
+   display: flex;
+   justify-content: center;
+}
+
+#player {
+   max-width: 1000px !important;
+}
+.video{
+   margin-bottom: 50px;
+}

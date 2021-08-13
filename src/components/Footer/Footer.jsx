@@ -1,33 +1,79 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import FolderIcon from '@material-ui/icons/Folder';
-import RestoreIcon from '@material-ui/icons/Restore';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import React from "react";
+import {
+Box,
+Container,
+Row,
+Column,
+FooterLink,
+Heading,
+} from "./FooterStyles";
 
-const useStyles = makeStyles({
-    root: {
-        width: '100%',
-        height: 200
-    },
-});
+const Footer = () => {
+return (
+	<Box>
+	<h1 style={{ color: "white",
+				textAlign: "center",
+				marginTop: "-50px" }}>
+	
+	</h1>
+	<Container >
+		<Row>
+		<Column>
+			<Heading>About Us</Heading>
+			<FooterLink href="/aboutus">About us</FooterLink>
+			<FooterLink href="/contactus">Contact Us</FooterLink>
+			<FooterLink href="#">Stores</FooterLink>
+			<FooterLink href="#">Sustainability</FooterLink>
+			
+		</Column>
+		<Column>
+			<Heading>Customer Service</Heading>
+			<FooterLink href="#">Delivery</FooterLink>
+			<FooterLink href="#">Payments</FooterLink>
+			<FooterLink href="#">Returns</FooterLink>
+		
+		</Column>
+		<Column>
+			<Heading>News</Heading>
+			
+			<FooterLink href="#" inputMode >Sign up to our newsletter</FooterLink>
+			
+		</Column>
+		<Column>
+			<Heading>Social Media</Heading>
+			<FooterLink href="#">
+			<i className="fab fa-facebook-f">
+				<span style={{ marginLeft: "20" }}>
+				Facebook
+				</span>
+			</i>
+			</FooterLink>
+			<FooterLink href="https://www.instagram.com/online_store_violet/">
+			<i className="fab fa-instagram">
+				<span style={{ marginLeft: "20" }}>
+				Instagram
+				</span>
+			</i>
+			</FooterLink>
+			<FooterLink href="#">
+			<i className="fab fa-twitter">
+				<span style={{ marginLeft: "20" }}>
+				Twitter
+				</span>
+			</i>
+			</FooterLink>
+			<FooterLink href="#">
+			<i className="fab fa-youtube">
+				<span style={{ marginLeft: "20" }}>
+				Youtube
+				</span>
+			</i>
+			</FooterLink>
+		</Column>
+		</Row>
+	</Container>
+	</Box>
+);
+};
+export default Footer;
 
-export default function Footer() {
-    const classes = useStyles();
-    const [value, setValue] = React.useState('recents');
-
-    const handleChange = (event, newValue) => {
-        setValue(newValue);
-    };
-
-    return (
-        <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-            {/* <BottomNavigationAction label="Recents" value="recents" icon={<RestoreIcon />} />
-            <BottomNavigationAction label="Favorites" value="favorites" icon={<FavoriteIcon />} />
-            <BottomNavigationAction label="Nearby" value="nearby" icon={<LocationOnIcon />} />
-            <BottomNavigationAction label="Folder" value="folder" icon={<FolderIcon />} /> */}
-        </BottomNavigation>
-    );
-}

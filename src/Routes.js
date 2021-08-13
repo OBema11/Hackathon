@@ -47,5 +47,4 @@ const Routes = () => {
         </AuthContext>
     );
 };
-
 export default Routes;

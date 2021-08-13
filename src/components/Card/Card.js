@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "react-credit-cards";
 import "react-credit-cards/es/styles-compiled.css";
-import "./Card.css";                             
+import "./Card.css";   
 import { createBrowserHistory } from "history";
 
 export default class Payment extends React.Component {

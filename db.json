@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "title": "Подвеска с жемчугами",
+      "image": "https://ae01.alicdn.com/kf/Hdcb79e3597704875a55363c4ef549df9g/Elegant-White-Pearl-Choker-Necklace-For-Women-Aesthetic-Gold-Color-Heart-Pendant-Necklaces-Jewelry-Accessories-Collier.jpg_Q90.jpg_.webp",
+      "price": "2000",
+      "type": "Подвеска",
+      "description": "Многослойная подвеска в золоте с жемчугами",
+      "id": 1
+    },
+    {
       "title": "Многослойная цепочка",
       "image": "https://www.refinery29.com/images/8864563.png?format=pjpg&auto=webp&resize-filter=lanczos2&quality=50&sharpen=a3%2Cr3%2Ct0&optimize=low&width=960",
       "price": "2000",
@@ -201,7 +209,7 @@
       "id": 27
     },
     {
-      "title": "БРАСЛЕТ НА РУКУ С МЕСЯЦЕМ",
+      "title": "БРАСЛЕТ С МЕСЯЦЕМ",
       "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/Mp3in4oSTXy5_kEQU8Gp_A_thumb_ab_1000x.jpg?v=1612748457",
       "price": "3500",
       "type": "Браслет",
@@ -209,7 +217,8 @@
       "id": 28
     },
     {
-      "title": "БРАСЛЕТ НА РУКУ С МЕСЯЦЕМ И ЗВЕЗДАМИ 925",
+
+      "title": "БРАСЛЕТ НА РУКУ С МЕСЯЦЕМ И ЗВЕЗДАМИ 925"
       "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/yCBtc5SRTO2SkkoN0KzIJg_thumb_10_1000x.jpg?v=1622360652",
       "price": "3500",
       "type": "Браслет",
@@ -233,6 +242,7 @@
       "id": 31
     },
     {
+
       "title": "ПЕЧАТКА УСЫПАННАЯ ЦИРКОНАМИ ",
       "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/jNzPPQIGT12sk_MJg19n_Q_thumb_24_1000x.jpg?v=1627324828",
       "price": "3500",

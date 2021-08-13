@@ -59,3 +59,7 @@
   background-color: rgb(133, 113, 89) !important;
   color: white !important;
 }
+
+.MuiFormLabel-root.Mui-focused {
+  color: rgb(133, 113, 89) !important;
+}

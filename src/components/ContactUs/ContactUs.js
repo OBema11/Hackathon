@@ -29,8 +29,7 @@ KvK number: 65961137
 BTW number: NL856334662B01
 
  </p>
-                           
-                          
+                      
                             </div>
 
                                    

@@ -3,7 +3,7 @@
     {
       "title": "Подвеска с жемчугами",
       "image": "https://ae01.alicdn.com/kf/Hdcb79e3597704875a55363c4ef549df9g/Elegant-White-Pearl-Choker-Necklace-For-Women-Aesthetic-Gold-Color-Heart-Pendant-Necklaces-Jewelry-Accessories-Collier.jpg_Q90.jpg_.webp",
-      "price": "1500",
+      "price": "2000",
       "type": "Подвеска",
       "description": "Многослойная подвеска в золоте с жемчугами",
       "id": 1
@@ -95,6 +95,166 @@
       "type": "Комплект",
       "description": "Комплект из подвесок, серёжек и кольца",
       "id": 12
+    },
+    {
+      "title": "КАФФ КРУПНАЯ ВЕТОЧКА",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/45928_copy_93f6f8fe-a798-428e-ad37-e12eebf1d281_1400x.jpg?v=1627324718",
+      "price": "2200",
+      "type": "Кафф",
+      "description": "",
+      "id": 13
+    },
+    {
+      "title": "КАФФ \"СЕРДЕЧКО\"",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/lDt1L02mQbqfh6lnJMQNsA_thumb_a1_900x.jpg?v=1612747211",
+      "price": "1500",
+      "type": "Кафф",
+      "description": "",
+      "id": 14
+    },
+    {
+      "title": "КАФФ ИЗ ЦИРКОНОВ НА ХРЯЩИК",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/Wofwi15GRH_i5O5YId5N1g_thumb_aa_900x.jpg?v=1627324728",
+      "price": "1300",
+      "type": "Кафф",
+      "description": "",
+      "id": 15
+    },
+    {
+      "title": "КАФФ ПОЛОСКА В ЗОЛОТЕ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/46017_copy_1da5c307-964e-4492-9129-16810a5d032c_1400x.jpg?v=1627324735",
+      "price": "1700",
+      "type": "Кафф",
+      "description": "",
+      "id": 16
+    },
+    {
+      "title": "ПОДВЕСКА СЕРДЦЕ ИЗ ОПАЛА",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/0344_1400x.jpg?v=1598643576",
+      "price": "3600",
+      "type": "Подвеска",
+      "description": "Выполнен: серебро 925 пробы\n\nКамни: натуральный опал\n\nЦвет: серебро",
+      "id": 17
+    },
+    {
+      "title": "ПОДВЕСКА ДВУСТОРОННЯЯ \"МАСКА\"",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/Xh_XqrpGSAu_ErW_lwb05g_thumb_33_1000x.jpg?v=1620414256",
+      "price": "4500",
+      "type": "Подвеска",
+      "description": "",
+      "id": 18
+    },
+    {
+      "title": "Чокер \"Rich\"",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/45650_copy_fb4de5f1-2367-4da9-9aba-95a7404c7848_1400x.jpg?v=1616015094",
+      "price": "5600",
+      "type": "Чокер",
+      "description": "",
+      "id": 19
+    },
+    {
+      "title": "ПОДВЕСКА ЧЕРНЫЙ МЕСЯЦ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/0186_1400x.jpg?v=1618180565",
+      "price": "3600",
+      "type": "Подвеска",
+      "description": "",
+      "id": 20
+    },
+    {
+      "title": "ПОДВЕСКА ЗВЕЗДОЧКА ИЗ ОПАЛА",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/9197_1400x.jpg?v=1627324515",
+      "price": "3700",
+      "type": "Подвеска",
+      "description": "Выполнен: серебро 925 пробы  Камни: натуральный опал  Цвет: серебро",
+      "id": 21
+    },
+    {
+      "title": "ПОДВЕСКА С СЕРДЦЕМ 925",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/oiu0qBCLTty_iiFZK17I8g_thumb_19_1024x1024.jpg?v=1627324562",
+      "price": "4700",
+      "type": "Подвеска",
+      "description": "Выполнен: серебро 925 пробы с напылением 24к золотом  Цвет: золото  Длина изделия: 40 см",
+      "id": 22
+    },
+    {
+      "title": "ЧОКЕР ЖЕМЧУГ СО ЗВЕЗДОЙ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/Lilium20516_1400x.jpg?v=1598640860",
+      "price": "2700",
+      "type": "Чокер",
+      "description": "Серебро 925 пробы  Камни: барочный натуральный жемчуг, натуральные цирконы",
+      "id": 23
+    },
+    {
+      "title": "МОНЕТКА \"ШАМАН\"",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/45811_copy_b49a0f90-2e83-496c-b4ee-0e0e918a5f70_1400x.jpg?v=1602840893",
+      "price": "2900",
+      "type": "Подвеска",
+      "description": "Серебро 925, 24К напыление золота Артикул: ПО-99980",
+      "id": 24
+    },
+    {
+      "title": "ЧОКЕР КЛАССИЧЕСКИЙ 925 ЗОЛОТО",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/46001_copy_1400x.jpg?v=1604238522",
+      "price": "3500",
+      "type": "Чокер",
+      "description": "Выполнен: серебро 925 пробы с напылением 24к золотом  Камни: натуральные цирконы  Цвет: золотой",
+      "id": 25
+    },
+    {
+      "title": "БРАСЛЕТ С ЖЕМЧУГОМ",
+      "image": "https://oniks.ua/upload/resize_cache/iblock/729/768_768_2/7299f73218ef0e14a38cd112e8ff87bf.jpg",
+      "price": "2400",
+      "type": "Браслет",
+      "description": "Браслет выполнен из серебра с жемчугом .",
+      "id": 26
+    },
+    {
+      "title": "БРАСЛЕТИК ХАМСА",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/P5OUozXXSkOJybccRqhyHg_thumb_e4_1000x.jpg?v=1612748862",
+      "price": "3500",
+      "type": "Браслет",
+      "description": "Выполнен: ювелирный сплав, родированный Камни: натуральные цирконы Цвет: серебро",
+      "id": 27
+    },
+    {
+      "title": "БРАСЛЕТ С МЕСЯЦЕМ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/Mp3in4oSTXy5_kEQU8Gp_A_thumb_ab_1000x.jpg?v=1612748457",
+      "price": "3500",
+      "type": "Браслет",
+      "description": "Выполнен: ювелирный сплав, родированный Камни: натуральные цирконы Цвет: серебро",
+      "id": 28
+    },
+    {
+      "title": "БРАСЛЕТ С МЕСЯЦЕМ И ЗВЕЗДАМИ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/yCBtc5SRTO2SkkoN0KzIJg_thumb_10_1000x.jpg?v=1622360652",
+      "price": "3500",
+      "type": "Браслет",
+      "description": "Выполнен: серебро 925 Камни: натуральные цирконы Цвет: серебро",
+      "id": 29
+    },
+    {
+      "title": "БРАСЛЕТ НА РУКУ “RICH”",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/PkI1kb9mTAij7dmZ9L3PBQ_thumb_6_cbacbba0-6e44-440d-8f62-c85cc00845b6_600x.jpg?v=1623845234",
+      "price": "3700",
+      "type": "Браслет",
+      "description": "Выполнен: ювелирный сплав, родированный  Камни: натуральные цирконы  Цвет: серебро",
+      "id": 30
+    },
+    {
+      "title": "БРАСЛЕТ \"КАПЕЛЬКИ\"",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/8VUf8VYVQ3yD9F3rTKwGpQ_thumb_3c_900x.jpg?v=1627324978",
+      "price": "2500",
+      "type": "Браслет",
+      "description": "Выполнен: серебро 925 пробы с напылением 24к золотом  Камни: натуральные цирконы  Цвет: золото",
+      "id": 31
+    },
+    {
+      "title": "ПЕЧАТКА УСЫПАННАЯ ЦИРКОНАМИ В СЕРЕБРЕ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/jNzPPQIGT12sk_MJg19n_Q_thumb_24_1000x.jpg?v=1627324828",
+      "price": "3500",
+      "type": "Кольцо",
+      "description": "Размер: от 17 регулируется Выполнено: ювелирный сплав, родированный. Камни: натуральные цирконы",
+      "id": 32
     }
   ]
 }

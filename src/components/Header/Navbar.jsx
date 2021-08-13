@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { alpha, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -11,15 +12,15 @@ import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
-import MailIcon from '@material-ui/icons/Mail';
-import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { useContext } from 'react';
 import { productContext } from '../../contexts/ProductsContext';
-import { Button, Link } from '@material-ui/core';
-import { useHistory } from 'react-router-dom';
+import { Button } from '@material-ui/core';
+import { Link, useHistory } from 'react-router-dom';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import Sidebar from '../Sidebar/Sidebar';
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -83,17 +84,24 @@ const useStyles = makeStyles((theme) => ({
             display: 'none',
         },
     },
+    jew:{
+        color: 'white'
+    }
 }));
 
-export default function Navbar() {
+export default function Navbar({ item }) {
     const classes = useStyles();
     const [anchorEl, setAnchorEl] = React.useState(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
     const history = useHistory();
     const [searchVal, setSearchVal] = useState(getSearchVal() || '')
-    const { getProducts, cartLength, getCartLength } = useContext(productContext)
+    const { getProducts, cartLength, getCartLength , openSidebar, setBar,  bar} = useContext(productContext)
     const isMenuOpen = Boolean(anchorEl);
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
+
+    const handleClick=()=>{
+        setBar(!bar)
+    }
 
     function getSearchVal() {
         const search = new URLSearchParams(history.location.search)
@@ -121,9 +129,19 @@ export default function Navbar() {
         handleMobileMenuClose();
     };
 
-    const handleMobileMenuOpen = (event) => {
+const handleMobileMenuOpen = (event) => {
         setMobileMoreAnchorEl(event.currentTarget);
     };
+
+    const goSignIn = () => {
+        history.push('/login')
+        handleMenuClose()
+    };
+
+    const goSignUp = () => {
+        history.push('/register')
+        handleMenuClose()
+    }
 
     const menuId = 'primary-search-account-menu';
     const renderMenu = (
@@ -136,8 +154,8 @@ export default function Navbar() {
             open={isMenuOpen}
             onClose={handleMenuClose}
         >
-            <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-            <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+            <MenuItem onClick={goSignUp}>Registration</MenuItem>
+            <MenuItem onClick={goSignIn}>Sign In</MenuItem>
         </Menu>
     );
 
@@ -175,12 +193,17 @@ export default function Navbar() {
                         className={classes.menuButton}
                         color="inherit"
                         aria-label="open drawer"
+                        onClick={handleClick}
                     >
-                        <MenuIcon />
+                        <MenuIcon>
+                            <Sidebar/>
+                        </MenuIcon>
                     </IconButton>
-                    <Typography className={classes.title} variant="h5" noWrap>
-                        𝚅𝙸𝙾𝙻𝙴𝚃
-                    </Typography>
+                    <Link to={'/'} style={{ textDecoration: 'none', color: 'white' }} >
+                        <Typography className={classes.title} variant="h5" noWrap>𝚅𝙸𝙾𝙻𝙴𝚃
+                        </Typography>
+
+</Link>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>
                             <SearchIcon />
@@ -196,6 +219,9 @@ export default function Navbar() {
                             onChange={handleValue}
                         />
                     </div>
+                    <Link to='/list' style={{ textDecoration: 'none' }}>
+                        <Button className={classes.jew}>Category<ArrowDropDownIcon /></Button>
+                    </Link>
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
                         <Link to="/cart" style={{ color: "white" }}>

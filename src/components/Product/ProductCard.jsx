@@ -29,12 +29,10 @@ export default function ProductCard({ item, history }) {
 
     return (
         <Card className={classes.root}>
-            <Link to={`/detail/${item}`} style={{ textDecoration: 'none', color: 'black' }}>
-                <CardHeader
-                    title={item.title}
-                    subheader={item.type}
-                />
-            </Link>
+            <CardHeader
+                title={item.title}
+                subheader={item.type}
+            />
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -67,9 +65,11 @@ export default function ProductCard({ item, history }) {
                 <IconButton aria-label="add to favorites" color="inherit">
                     <FavoriteIcon />
                 </IconButton>
-                <IconButton aria-label='share'>
-                    <Button variant="contained" color="secondary">Detail</Button>
-                </IconButton>
+                <Link to={`/detail/${item.id}`} style={{ textDecoration: 'none', color: 'black' }}>
+                    <IconButton aria-label='share'>
+                        <Button variant="contained" color="secondary">Detail</Button>
+                    </IconButton>
+                </Link>
             </CardActions>
         </Card>
     );

@@ -12,14 +12,18 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import { Button, Typography } from '@material-ui/core';
 import { calcTotalPrice } from '../../helpers/calcPrice';
+import { Link } from 'react-router-dom';
+
 
 
 const useStyles = makeStyles({
     table: {
-        minWidth: 700,
+        // minWidth: 700,
     },
     paper: {
-        maxWidth: 1000,
+        // maxWidth: 1000,
+        width: '100vw',
+        minWidth: '400px',
         margin: '40px auto'
     },
     title: {
@@ -78,9 +82,11 @@ const Cart = () => {
                         }
                     </TableRow>
                     <TableRow >
-                        <TableCell colSpan={3} align="right">
-                            <Button variant="contained" color="primary">BUY</Button>
-                        </TableCell>
+                        <Link to='/payment' style={{ textDecoration: 'none' }}>
+                            <TableCell colSpan={3} align="right">
+                                <Button variant="contained" color="primary"> BUY</Button>
+                            </TableCell>
+                        </Link>
                     </TableRow>
                 </TableBody>
             </Table>

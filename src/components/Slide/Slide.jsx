@@ -15,50 +15,51 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
     {
-        label: '𝐉𝐞𝐰𝐞𝐥𝐥𝐞𝐫𝐲',
+        label: '',
         imgPath:
             'https://cdn.shopify.com/s/files/1/0023/9193/3039/files/35816_1.jpg?v=1588629457',
     },
     {
-        label: '𝐑𝐢𝐧𝐠 𝐬𝐞𝐭',
+        label: '',
         imgPath:
             'https://i.shgcdn.com/404ebab1-9c16-4826-9f78-6d78c07c2dbc/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
     },
     {
-        label: '𝐄𝐚𝐫𝐫𝐢𝐧𝐠𝐬',
+        label: '',
         imgPath:
             'https://s3.eu-west-2.amazonaws.com/luxurylondon.co.uk-storage-bucket-001/images/020221115620/billboard/sustainable-jewellery-brands.jpg',
     },
     {
-        label: '𝐒𝐞𝐚𝐬𝐨𝐧`𝐬 𝐭𝐫𝐞𝐧𝐝𝐬',
+        label: '',
         imgPath:
-            'https://www.shoppingschool.ru/netcat_files/147/274/Shablon_870_159.jpg',
+            'https://cdn.shopify.com/s/files/1/0023/9193/3039/files/3924_1.jpg?v=1588629551',
     },
     {
-        label: '𝐌𝐮𝐥𝐭𝐢𝐥𝐚𝐲𝐞𝐫 𝐩𝐞𝐧𝐝𝐚𝐧𝐭𝐬',
+        label: '',
         imgPath:
-            'http://v.img.com.ua/b/orig/2/ee/dda6730421baf28183f1a394a4be5ee2.png',
+            'https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     },
 ];
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        maxWidth: 1000,
+        width: '100%',
         flexGrow: 1,
-        marginLeft: 131,
-        marginRight: 131,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        marginTop: -49,
     },
     header: {
         display: 'flex',
         alignItems: 'center',
         height: 50,
         paddingLeft: theme.spacing(4),
-        backgroundColor: theme.palette.background.default,
+        backgroundColor: "white",
     },
     img: {
-        height: 500,
+        height: '670px',
         display: 'block',
-        maxWidth: 1000,
+        width: '1500px',
         overflow: 'hidden',
         width: '100%',
     },
@@ -150,25 +151,7 @@ function Slide() {
                     </div>
                 ))}
             </AutoPlaySwipeableViews>
-            <MobileStepper
-                variant="dots"
-                steps={5}
-                position="static"
-                activeStep={activeStep}
-                className={classes.root}
-                nextButton={
-                    <Button size="small" onClick={handleNext} disabled={activeStep === 5}>
-                        Next
-                        {theme.direction === 'rtl' ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}
-                    </Button>
-                }
-                backButton={
-                    <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
-                        {theme.direction === 'rtl' ? <KeyboardArrowRight /> : <KeyboardArrowLeft />}
-                        Back
-                    </Button>
-                }
-            />
+           
         </div>
     );
 }

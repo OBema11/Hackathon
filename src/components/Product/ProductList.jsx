@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 import { productContext } from '../../contexts/ProductsContext';
 import ProductCard from './ProductCard';
 import { Pagination } from '@material-ui/lab';
+import Filter from '../Filter/Filter';
 
 const ProductList = () => {
     let history = useHistory();
@@ -33,6 +34,7 @@ const ProductList = () => {
 
     return (
         <>
+        {/* <Filter> */}
             <Grid container spacing={3} justify="space-evenly" style={{ marginTop: '0px' }}>
                 {
                     products ? (
@@ -50,6 +52,7 @@ const ProductList = () => {
                     page={+page}
                 />
             </div>
+            {/* </Filter> */}
         </>
     );
 };

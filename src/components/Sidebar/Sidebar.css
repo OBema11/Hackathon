@@ -1,0 +1,34 @@
+.Sidebar{
+width: 100%;
+height: 100%;
+background-color:  rgb(133, 113, 89);
+position: relative;
+/* visibility: hidden; */
+}
+.SidebarList{
+    width: 100%;
+    height: auto;
+
+}
+.SidebarList .row{
+    width: 100%;
+    height: 50px;
+    border: 1px solid burlywood;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.SidebarList #active{
+    background-color: rgb(231, 200, 161); 
+}
+.SidebarList .row:hover{
+    cursor: pointer;
+    background-color: rgb(231, 200, 161);
+}
+
+

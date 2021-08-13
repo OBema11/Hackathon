@@ -1,0 +1,17 @@
+body{
+    /* display: flex; */
+    color: black;
+}
+
+p{
+    color: black;
+    margin: 20px;
+}
+
+.row{
+    display: flex !important;
+    justify-content: center;
+
+}
+
+

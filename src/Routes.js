@@ -18,13 +18,14 @@ import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/Footer/Footer';
 import FilterHome from './components/Filter/FilterHome';
 
+
 const Routes = () => {
     return (
         <AuthContext>
             <ProductsContext>
                 <BrowserRouter>
-                    <Navbar />
-
+                    <Navbar/>
+                
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/add" component={Add} />
@@ -33,18 +34,17 @@ const Routes = () => {
                         <Route exact path="/login" component={Login} />
                         <Route exact path="/register" component={Register} />
                         <Route exact path="/detail/:id" component={ProductDetail} />
-                        <Route exact path="/aboutus" component={AboutUs} />
-                        <Route exact path="/contactus" component={ContactUs} />
-                        <Route exact path="/payment" component={PaymentForm} />
-                        <Route exact path="/card" component={Card} />
+                        <Route exact path="/aboutus" component={AboutUs}/>
+                        <Route exact path="/contactus" component={ContactUs}/>
+                        <Route exact path="/payment" component={PaymentForm}/>
+                        <Route exact path="/card" component={Card}/>
                         <Route exact path="/list" component={FilterHome} />
-
+                        
                     </Switch>
-                    <Footer />
+                    <Footer/>
                 </BrowserRouter>
             </ProductsContext>
         </AuthContext>
     );
 };
-
 export default Routes;

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { alpha, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -238,7 +237,7 @@ const handleMobileMenuOpen = (event) => {
                         </Link>
                         <IconButton aria-label="show 17 new notifications" color="inherit">
                             <Badge badgeContent={0} color="secondary">
-                                <FavoriteIcon />
+                                {/* <FavoriteIcon /> */}
                             </Badge>
                         </IconButton>
                         <IconButton

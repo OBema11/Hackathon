@@ -15,8 +15,8 @@ const useStyles = makeStyles(theme => ({
         color: theme.palette.text.secondary,
         marginRight: '20px',
         marginBottom: '20px',
-        minWidth: '170px',  //TODO0 NEW (from 19.05.2021)
-        maxWidth: '350px',  //TODO0 NEW (from 19.05.2021)
+        minWidth: '170px',
+        maxWidth: '350px',
     }
 }))
 
@@ -41,7 +41,7 @@ const Filter = () => {
         const search = new URLSearchParams(history.location.search)
         search.set('price_lte', value)
         history.push(`${history.location.pathname}?${search.toString()}`)
-        getProducts()
+        getProducts(history)
         setprice(value)
     }
 

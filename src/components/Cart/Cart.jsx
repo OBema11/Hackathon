@@ -23,7 +23,7 @@ const useStyles = makeStyles({
     paper: {
         // maxWidth: 1000,
         width: '100vw',
-        minWidth: '400px',
+        minWidth:'400px',
         margin: '40px auto'
     },
     title: {
@@ -33,7 +33,7 @@ const useStyles = makeStyles({
 
 const Cart = () => {
     const classes = useStyles()
-    const { cart, getCart, changeProductCount } = useContext(productContext)
+    const { cart, getCart, changeProductCount, buy } = useContext(productContext)
 
     useEffect(() => {
         getCart()
@@ -82,16 +82,13 @@ const Cart = () => {
                         }
                     </TableRow>
                     <TableRow >
-                        <Link to='/payment' style={{ textDecoration: 'none' }}>
-                            <TableCell colSpan={3} align="right">
-                                <Button variant="contained" color="primary"> BUY</Button>
-                            </TableCell>
-                        </Link>
+                        <Link to='/payment' style={{textDecoration:'none'}}><TableCell colSpan={3} align="right">
+                            <Button onClick={buy} variant="contained" color="primary"> BUY</Button>
+                        </TableCell></Link>
                     </TableRow>
                 </TableBody>
             </Table>
         </TableContainer>
     );
 };
-
 export default Cart;

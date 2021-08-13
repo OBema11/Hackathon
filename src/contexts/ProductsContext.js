@@ -146,6 +146,10 @@ const ProductsContext = ({ children }) => {
         })
     }
 
+    const buy = () => {
+        localStorage.clear()
+    }
+
     const changeProductCount = (count, id) => {
         let cart = JSON.parse(localStorage.getItem('cart'))
         cart.products = cart.product.map(elem => {
@@ -206,11 +210,11 @@ const ProductsContext = ({ children }) => {
             getDetail,
             openSidebar,
             setBar,
-            bar
+            bar,
+            buy
         }}>
             {children}
         </productContext.Provider>
     );
 };
-
 export default ProductsContext;

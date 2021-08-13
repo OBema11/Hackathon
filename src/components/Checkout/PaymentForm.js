@@ -4,8 +4,8 @@ import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import { Button, Link, TableCell, TableRow } from '@material-ui/core';
-
+import { Button, TableCell, TableRow } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 export default function AddressForm() {
   return (
     <React.Fragment>
@@ -89,16 +89,15 @@ export default function AddressForm() {
           <FormControlLabel
             control={<Checkbox color="secondary" name="saveAddress" value="yes" />}
             label="Use this address for payment details"
-          />
-
+          />          
         </Grid>
-        <Link to='/card' style={{ textDecoration: 'none' }}>
-          <TableCell align="right">
-            <Button variant="contained" color="primary" style={{ marginBottom: '25px' }}>
-              PAY
+        <TableCell align="right">
+          <Link to='/card'>
+        <Button variant="contained" color="primary">
+          PAY
             </Button>
-          </TableCell>
-        </Link>
+            </Link>
+            </TableCell>
       </Grid>
     </React.Fragment>
   );

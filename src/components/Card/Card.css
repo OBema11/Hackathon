@@ -20,11 +20,11 @@
        
         padding: 10px;
         border:none;
-        border-bottom: 2px solid grey;   
+        border-bottom: 2px solid rgb(133, 113, 89);   
     
    }
    .inp-input:hover{
-    outline: 2px solid grey;
+    outline: 2px solid rgb(133, 113, 89);
     outline-offset: 2px; 
    }
 
@@ -32,8 +32,8 @@
     padding: 7px 35px;
     cursor: pointer;
     outline: none;
-    background: grey;
-    color: rgb(255, 255, 255);
+    background: rgb(133, 113, 89);
+    color: white;
     font-family: proxima-nova, Helvetica, Arial, Helvetica, sans-serif;
     font-size: 18px;
     border-radius: 10px;
@@ -43,5 +43,6 @@
 }
 .pay_now:hover {
     box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
-    background: rgb(133, 113, 89);
+    background: burlywood;
+
 }

@@ -49,14 +49,6 @@
       "id": 6
     },
     {
-      "title": "Серьги - каффы",
-      "image": "https://ae01.alicdn.com/kf/H6fadad15ff984e5e90e0d9b30ae173cbJ/Gothic-Butterfly-earrings-kolczyki-For-Women-Egirl-Dangle-Tassel-Cool-Chic-Silver-Color-Aesthetic-Jewelry-Endientes.jpg_Q90.jpg_.webp",
-      "price": "1000",
-      "type": "Серьги",
-      "description": "Серьги - каффы в корейском стиле",
-      "id": 7
-    },
-    {
       "title": "Серьги - планета",
       "image": "https://my-test-11.slatic.net/p/a736952adb7a590539968627440e566a.jpg",
       "price": "700",
@@ -145,11 +137,11 @@
       "id": 18
     },
     {
-      "title": "Чокер \"Rich\"",
+      "title": "ЧОКЕР В СЕРЕБРЕ \"RICH\"",
       "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/45650_copy_fb4de5f1-2367-4da9-9aba-95a7404c7848_1400x.jpg?v=1616015094",
       "price": "5600",
       "type": "Чокер",
-      "description": "",
+      "description": "Выполнен: серебро 925 пробы\n\nКамни: натуральные цирконы\n\nЦвет: серебро",
       "id": 19
     },
     {
@@ -181,7 +173,7 @@
       "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/Lilium20516_1400x.jpg?v=1598640860",
       "price": "2700",
       "type": "Чокер",
-      "description": "Серебро 925 пробы  Камни: барочный натуральный жемчуг, натуральные цирконы",
+      "description": "Выполнен: серебро 925 пробы  Камни: барочный натуральный жемчуг, натуральные цирконы  Цвет застежки: серебро",
       "id": 23
     },
     {
@@ -225,7 +217,8 @@
       "id": 28
     },
     {
-      "title": "БРАСЛЕТ С МЕСЯЦЕМ И ЗВЕЗДАМИ",
+
+      "title": "БРАСЛЕТ НА РУКУ С МЕСЯЦЕМ И ЗВЕЗДАМИ 925"
       "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/yCBtc5SRTO2SkkoN0KzIJg_thumb_10_1000x.jpg?v=1622360652",
       "price": "3500",
       "type": "Браслет",
@@ -249,12 +242,93 @@
       "id": 31
     },
     {
-      "title": "ПЕЧАТКА УСЫПАННАЯ ЦИРКОНАМИ В СЕРЕБРЕ",
+
+      "title": "ПЕЧАТКА УСЫПАННАЯ ЦИРКОНАМИ ",
       "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/jNzPPQIGT12sk_MJg19n_Q_thumb_24_1000x.jpg?v=1627324828",
       "price": "3500",
       "type": "Кольцо",
-      "description": "Размер: от 17 регулируется Выполнено: ювелирный сплав, родированный. Камни: натуральные цирконы",
+      "description": "Размер: от 17 регулируется Выполнено: ювелирный сплав, родированный. ",
       "id": 32
+    },
+    {
+      "title": "СЕРЬГИ \"MILLER\" В СЕРЕБРЕ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/YLLlNwZtTJGOXgZTemkkXQ_thumb_d_53d592ee-93da-4521-901f-eba3f09906c4_600x.jpg?v=1612753838",
+      "price": "5000",
+      "type": "Серьги",
+      "description": "Выполнен: серебро 925 пробы   Камни: натуральный барочный жемчуг",
+      "id": 33
+    },
+    {
+      "title": "КОНГО С ЦИРКОНАМИ СЕРЕБРО",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/46032_copy_1400x.jpg?v=1602752418",
+      "price": "4000",
+      "type": "Серьги",
+      "description": "Серебро 925. Камни: натуральные цирконы Артикул: СР-9100-С",
+      "id": 34
+    },
+    {
+      "title": "СЕРЬГИ ЦИРКОНЫ НА ЦЕПОЧКАХ ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/BKYYmYF3TXmWtGFf2rEf_A_thumb_a7_84f38278-b6fc-4fc9-af97-317ceb43abce_900x.jpg?v=1612749173",
+      "price": "5000",
+      "type": "Серьги",
+      "description": "Выполнен: ювелирный сплав, родированный Камни: натуральные цирконы ",
+      "id": 35
+    },
+    {
+      "title": "СЕРЬГИ СЕРДЕЧКИ 24К",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/45851_copy_1400x.jpg?v=1602753526",
+      "price": "5000",
+      "type": "Серьги",
+      "description": "СЕРЬГИ СЕРДЕЧКИ 24К",
+      "id": 36
+    },
+    {
+      "title": "КОЛЬЦО ВИНТАЖ ЗОЛОТО",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/9337_1400x.jpg?v=1627324832",
+      "price": "4500",
+      "type": "3500",
+      "description": "Выполнено: ювелирный сплав, родированный. Цвет: золото",
+      "id": 37
+    },
+    {
+      "title": "КОЛЬЦО ВИНТАЖ ЗОЛОТО",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/9337_1400x.jpg?v=1627324832",
+      "price": "4500",
+      "type": "Кольцо",
+      "description": "Выполнено: ювелирный сплав, родированный. Цвет: золото",
+      "id": 38
+    },
+    {
+      "title": "КОЛЬЦО С ИЗУМРУДОМ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/d6MX_NbZRqeShMlRJACJZQ_thumb_e2_1000x.jpg?v=1612739195",
+      "price": "3500",
+      "type": "Кольцо",
+      "description": "Выполнено: ювелирный сплав, родированный.  Камни: натуральные цирконы",
+      "id": 39
+    },
+    {
+      "title": "КОЛЬЦО НА ОСНОВУ \"СФЕРА\" В ЗОЛОТЕ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/0093_copy_1400x.jpg?v=1627324838",
+      "price": "2500",
+      "type": "Кольцо",
+      "description": "Размер: 16-16.5  Выполнено: ювелирный сплав, родированный",
+      "id": 40
+    },
+    {
+      "title": "ЧОКЕР КЛАССИЧЕСКИЙ 925 СЕРЕБРО",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/46025copy_1400x.jpg?v=1610336795",
+      "price": "4500",
+      "type": "Чокер",
+      "description": "Выполнен: серебро 925 пробы\n\nКамни: натуральные цирконы\n\nЦвет: серебро",
+      "id": 41
+    },
+    {
+      "title": "СЕРЬГИ МЕСЯЦЫ",
+      "image": "https://cdn.shopify.com/s/files/1/0023/9193/3039/products/rkdhS5FiTHOdEkcxUbbnSQ_thumb_dd_d3631dea-cfab-4c56-908e-403a61848cca_800x.jpg?v=1627324061",
+      "price": "1200",
+      "type": "Серьги",
+      "description": "СЕРЬГИ МЕСЯЦЫ",
+      "id": 42
     }
   ]
 }

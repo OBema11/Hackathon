@@ -43,7 +43,7 @@ const tutorialSteps = [
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        width: '1440px',
+        width: '100%',
         flexGrow: 1,
         marginLeft: 'auto',
         marginRight: 'auto',

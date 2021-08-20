@@ -2,7 +2,6 @@ import Edit from './components/Admin/Edit';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Add from './components/Admin/Add';
-import Navbar from './components/Header/Navbar';
 import Home from './components/Home/Home';
 import ProductList from './components/Product/ProductList';
 import ProductsContext from './contexts/ProductsContext';
@@ -24,7 +23,7 @@ const Routes = () => {
         <AuthContext>
             <ProductsContext>
                 <BrowserRouter>
-                    <Navbar/>
+                    {/* <Navbar/> */}
                 
                     <Switch>
                         <Route exact path="/" component={Home} />

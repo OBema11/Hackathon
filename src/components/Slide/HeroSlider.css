@@ -1,0 +1,29 @@
+.hero-slide {
+    height: 500px !important;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .slide-image {
+    height: 500px !important;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide-image img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .hero-slider .content {
+    position: relative;
+    z-index: 2;
+    height: 500px !important;
+  }
